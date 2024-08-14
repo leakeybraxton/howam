@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import { Card, Col } from "react-bootstrap";
+import { Card, Col, Row } from "react-bootstrap";
 import blog1 from "../../../assets/Images/Blog/blog1.png";
 import blog2 from "../../../assets/Images/Blog/blog2.png";
 import blog3 from "../../../assets/Images/Blog/blog3.png";
 import blog4 from "../../../assets/Images/Blog/blog4.png";
 import blog5 from "../../../assets/Images/Blog/blog5.png";
+import AboutUsVideo from "../AboutUs/AboutUsVideo";
 import { Link } from "react-router-dom";
 export default class OurBlog extends Component {
   render() {
@@ -48,10 +49,31 @@ export default class OurBlog extends Component {
         <div className="container">
           <div className="ourBlog">
             <div className="titleFont">
-              <h3>Our Blog</h3>
-              <h2>Latest Blog</h2>
+              <h1>Our Blog</h1>
             </div>
             <div>
+              <div className="yearOfExperience">
+                <div className="container">
+                  <Row className="align-items-center">
+                    <Col xs={12} sm={6}>
+                      <AboutUsVideo />
+                    </Col>
+                    <Col xs={12} sm={6} className="homeYearExper">
+                      <div className="scrollbar">
+                        <div>
+                          <h3>
+                            Discover Your Best Self—Where Art, Wellness, and
+                            Healthy Living Unite.
+                          </h3>
+                          <h3>Join us today!</h3>
+                        </div>
+                      </div>
+                    </Col>
+                  </Row>
+                </div>
+              </div>
+              <br />
+              <h2>Latest Blog</h2>
               <div className="beffect">
                 <Slider {...settings} className="row">
                   <Col xl={4}>
