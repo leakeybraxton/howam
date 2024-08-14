@@ -1,0 +1,2190 @@
+.mainBannerDiv {
+  position: relative;
+}
+.bannerContain {
+  position: absolute;
+  top: 30%;
+  left: 8%;
+  max-width: 40%;
+}
+.bannerContain h6 {
+  color: #fe0040;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.bannerContain h1 {
+  font-size: 60px;
+  color: #ffffff;
+  font-weight: 600;
+  line-height: 90px;
+}
+.bannerContain h5 {
+  font-size: 18px;
+  color: #b7b1b1;
+  line-height: 35px;
+}
+.bannerBtn {
+  margin-top: 50px;
+}
+.bannerBtn .homeBannerBtn {
+  margin-right: 30px;
+}
+.homeBannerBtn {
+  border-radius: 10px;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+.ourSurvice {
+  background-color: #fe0040;
+  transform: perspective(1px) translateZ(0);
+  position: relative;
+  transition-property: color;
+  transition-duration: 0.3s;
+  transition: all 0.5s ease;
+  border-radius: 6px;
+  padding: 10px 20px;
+}
+.ourSurvice a,
+.ourSurvice {
+  text-decoration: none;
+  color: #fff;
+}
+.ourSurvice:hover::before {
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+}
+.ourSurvice::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 10px;
+  background: #fe0040;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  -webkit-transform-origin: 50%;
+  transform-origin: 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.ourSurvice:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.ourContact {
+  background-color: #fff;
+  transform: perspective(1px) translateZ(0);
+  position: relative;
+  transition-property: color;
+  transition-duration: 0.3s;
+  transition: all 0.5s ease;
+  border-radius: 6px;
+  padding: 10px 20px;
+  margin-left: 30px;
+}
+.ourContact a {
+  text-decoration: none;
+  color: #000;
+}
+.ourContact:hover a {
+  color: white;
+}
+.ourContact:hover::before {
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+}
+.ourContact::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 10px;
+  background-color: #fff;
+
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  -webkit-transform-origin: 50%;
+  transform-origin: 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.ourContact:hover {
+  background-color: #000;
+  color: #fff;
+}
+/* _________________________________________Our Feature________________________________________ */
+.ourFeature {
+  padding: 80px 0px;
+}
+.ourFeature h2 {
+  max-width: 50%;
+  margin: 0 auto;
+}
+.mainFeaturesCard {
+  margin-top: 44px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.featuresCard {
+  background-color: #ffffff;
+  box-shadow: 0 0 10px #e2e1e1;
+  border-radius: 10px;
+  padding: 44px;
+  position: relative;
+  transition: 0.4s ease;
+  text-align: left;
+  cursor: pointer;
+}
+.featuresCardCircle {
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 0 10px #e2e1e1;
+}
+.featuresCardCircle img {
+  margin: 0 auto;
+  transition: 0.4s ease;
+  filter: invert(30%) grayscale(100%) brightness(70%) contrast(4);
+}
+.featuresCardContain {
+  text-align: left;
+}
+.featuresCardContain h3 {
+  font-size: 24px;
+  color: #000000;
+  padding: 30px 0px 20px 0px;
+  margin: 0px;
+  transition: 0.3s ease;
+}
+.featuresCard:hover .featuresCardContain h3 {
+  color: #fe0040;
+}
+
+.featuresCard:hover .featuresCardCircle img {
+  filter: none;
+  -webkit-transform: rotateY(3.142rad);
+  transform: rotateY(3.142rad);
+}
+.featuresCardContain h6 {
+  color: #666666;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 35px;
+}
+.mainFeaturesCard button {
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+
+.details[open] #open {
+  display: none;
+}
+.details #close {
+  display: none;
+}
+.details[open] #close {
+  display: block;
+}
+::-webkit-.details-marker {
+  display: none;
+}
+.details {
+  display: inline;
+}
+.details {
+  position: relative;
+}
+.details .summary {
+  display: block;
+  cursor: pointer;
+  padding-top: 10px;
+  font-size: 18px;
+  color: #000;
+  transition: 0.3s ease;
+}
+.details .summary:hover {
+  color: #fe0040;
+}
+
+.details .summary:focus {
+  outline: none;
+}
+.details[open] {
+  display: block;
+  padding-bottom: 25px;
+  padding-top: 10px;
+  animation: open 0.2s linear;
+}
+.details[open] .summary {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+/* __________________________________________________Year of experience______________________________________________________ */
+.yearOfExperience {
+  background-image: url("../../assets/Images/YearOfExperience/ExperienceBanner.png");
+  min-width: 100%;
+  position: relative;
+  padding: 40px 0px;
+}
+
+.scrollbar {
+  left: 0;
+}
+.scrollbar h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0px 0px 0px 0px;
+}
+.progress {
+  background-color: #d8d8d8;
+  border-radius: 20px;
+  position: relative;
+  margin: 15px 0px 20px 0px;
+  height: 12px;
+  width: 500px;
+}
+
+.progress-done {
+  background: #fe0040;
+  border-radius: 20px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 0;
+  opacity: 0;
+  transition: 1s ease 0.3s;
+}
+/* _______________________________________about Us ________________________________________________ */
+.mainAboutUs {
+  margin: 70px 0px;
+  overflow: hidden;
+}
+.aboutUs .titleFont {
+  margin-top: 0px;
+}
+.aboutUs {
+  margin-left: 50px;
+}
+.aboutIconMainDiv {
+  display: inline-block;
+  vertical-align: middle;
+}
+.aboutUs h5 {
+  font-size: 18px;
+  color: #666666;
+  line-height: 35px;
+  font-weight: 300;
+  margin: 20px 0px 45px 0px;
+}
+.aboutIconCircle {
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 0 10px #e2e1e1;
+  transition: 0.4s ease;
+  cursor: pointer;
+}
+.aboutIconCircle:hover {
+  background-color: #fe0040;
+}
+.aboutIconCircle img {
+  margin: 0 auto;
+  transition: 0.4s ease;
+}
+.aboutIconCircle:hover img {
+  filter: invert(96%) sepia(98%) saturate(10%) hue-rotate(157deg)
+    brightness(200%) contrast(103%);
+  transform: rotateY(3.142rad);
+}
+.aboutUsIconSideText {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 35px;
+}
+.aboutUsIconSideText h6 {
+  font-size: 25px;
+  cursor: pointer;
+}
+.aboutUsIconSideText h6:hover {
+  color: #fe0040;
+}
+.aboutUsIconSideText p {
+  font-size: 18px;
+  color: #666666;
+  font-weight: 300;
+  line-height: 30px;
+}
+.aboutIconMainDivFloat {
+  display: flex;
+  margin: 25px 0px;
+}
+.aboutSlider {
+  max-width: 100%;
+  margin: 0 auto;
+}
+.aboutSlider .slick-list {
+  padding-left: 0px !important;
+}
+.aboutSlider img {
+  border-radius: 10px;
+  display: inline-block;
+}
+.aboutSlider .slick-next {
+  top: auto;
+  bottom: 0;
+  left: 65px;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px !important;
+  background-color: #fe0040;
+  opacity: unset;
+  transition: 0.5s ease;
+}
+.aboutSlider .slick-prev {
+  top: auto;
+  bottom: 0;
+  left: 15px;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px !important;
+  background-color: #fe0040;
+  opacity: unset;
+  transition: 0.5s ease;
+}
+.aboutSlider .slick-next:hover,
+.aboutSlider .slick-prev:hover {
+  background-color: #ffffff;
+}
+.aboutSlider .slick-next::before {
+  content: "\f061";
+  font-family: FontAwesome;
+  font-size: 25px;
+  opacity: 1;
+  transition: 0.5s ease;
+}
+.aboutSlider .slick-prev::before {
+  content: "\f060";
+  font-family: FontAwesome;
+  font-size: 25px;
+  opacity: 1;
+  transition: 0.5s ease;
+}
+.aboutSlider .slick-arrow:hover::before {
+  color: black;
+}
+/* _____________________________________________________ourBestServicesBanner_____________________________________________ */
+.ourBestServicesBanner {
+  background-image: url("../../assets/Images/OurBestServices/OurBestSerBanner.png");
+  width: 100%;
+  padding: 80px 0px;
+}
+.ourBestServices .titleFont {
+  max-width: 65%;
+  margin: 0 auto;
+}
+.ourBestServicesRow {
+  padding-top: 40px;
+}
+.ourBestServices .card-body {
+  padding: 25px 35px;
+}
+.ourBestServices .card {
+  border: none;
+  box-shadow: 0 0 10px #d3d3d3;
+  border-radius: 10px;
+}
+.ourBestServices .card img {
+  border-radius: 10px 10px 0px 0px;
+}
+.ourBestServices .card .card-title {
+  font-size: 23px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.ourBestServices .card .card-text {
+  font-size: 16px;
+  color: #666666;
+  padding: 12px 0px;
+  line-height: 30px;
+}
+/* ________________________________________________ourPricing___________________________________________ */
+.ourPricing {
+  padding: 80px 0px;
+}
+.ourPricingCard {
+  margin-top: 40px;
+}
+
+.ourPricingCard .featuresCard {
+  box-shadow: none;
+  border: 1px solid #e2e1e1;
+  transition: 0.5s ease !important;
+}
+.ourPricingCard .featuresCard:hover {
+  box-shadow: 0 0 10px #e2e1e1;
+  transform: translateY(-10px);
+}
+.ourPricingCard .featuresCard h5 {
+  font-size: 30px;
+  color: #fe0040;
+  font-weight: 600;
+  line-height: 65px;
+}
+.ourPricingCard .featuresCard h6 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 10px;
+}
+.ourPricingCard .featuresCard h2 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 55px;
+}
+.ourPricingCard .featuresCard span {
+  font-size: 25px;
+  color: #666666;
+  text-decoration: line-through;
+  margin-left: 15px;
+}
+.ourPricingCard .featuresCard ul li {
+  font-size: 18px;
+  color: #666666;
+  line-height: 50px;
+}
+.slick-slider [class*="col-"] {
+  padding: 0 15px;
+}
+/* __________________________________________________________ourTeam___________________________________________ */
+.beffect .bimg {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.beffect img {
+  max-width: 100%;
+  width: 100%;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.beffect .bimg::after {
+  background: rgba(0, 0, 0, 0.5);
+  width: 0;
+  height: 0;
+  content: "";
+  position: absolute;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  right: 0;
+  top: 0;
+  border-radius: 5px;
+}
+.beffect .bimg:hover::after {
+  width: 100%;
+  height: 100%;
+  right: auto;
+  left: 0;
+}
+.ourTeamMain {
+  margin: 40px 0px 20px 0px;
+}
+.ourTeamMain .card {
+  box-shadow: none;
+  border: 1px solid #e2e1e1;
+  border-radius: 10px;
+}
+.ourTeamMain img {
+  border-radius: 10px 10px 0px 0px;
+}
+.ourTeamMain .beffect .bimg::after {
+  border-radius: 10px 10px 0px 0px;
+}
+.ourTeamMain .slick-next {
+  display: block;
+  bottom: 0;
+  top: -50px;
+  right: 20px;
+  left: auto;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px !important;
+  background-color: #fe0040;
+  opacity: unset;
+  transition: 0.5s ease;
+  box-shadow: 0 0 10px #e2e1e1;
+}
+.ourTeamMain .slick-prev {
+  display: block;
+  bottom: 0;
+  top: -50px;
+  right: 70px;
+  left: auto;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px !important;
+  background-color: #fe0040;
+  opacity: unset;
+  transition: 0.5s ease;
+  box-shadow: 0 0 10px #e2e1e1;
+}
+.ourTeamMain .slick-next:hover,
+.ourTeamMain .slick-prev:hover {
+  background-color: #ffffff;
+}
+.ourTeamMain .slick-next::before {
+  content: "\f061";
+  font-family: FontAwesome;
+  font-size: 25px;
+  opacity: 1;
+  transition: 0.5s ease;
+}
+.ourTeamMain .slick-prev::before {
+  content: "\f060";
+  font-family: FontAwesome;
+  font-size: 25px;
+  opacity: 1;
+  transition: 0.5s ease;
+}
+.ourTeamMain .slick-arrow:hover::before {
+  color: black;
+}
+.ourTeamMain h2 {
+  font-size: 18px;
+}
+.ourTeamMain h6 {
+  font-size: 16px;
+}
+
+.ourTeamImgBox {
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+.ourTeamIcon {
+  position: absolute;
+  bottom: -20px;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  transition: 0.5s ease;
+  opacity: 0;
+}
+
+.ourTeamCard:hover .ourTeamIcon {
+  bottom: 40%;
+  opacity: 1;
+  transition: 0.5s ease;
+}
+.ourTeamIcon li {
+  width: 35px;
+  font-size: 18px;
+  background-color: white;
+  text-align: center;
+  margin-right: 5px;
+  margin-left: 5px;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+  top: 50%;
+}
+.ourTeamIcon li a {
+  color: #000;
+  padding: 4px;
+}
+
+.ourTeamIcon li a:hover {
+  color: white;
+  background-color: #fe0040;
+  transition: 0.4s ease;
+  border-radius: 5px;
+}
+.ourTeamMain .card-title {
+  color: #000000;
+  font-size: 18px;
+  text-align: center;
+  line-height: 35px;
+  transition: 0.4s ease;
+}
+.ourTeamMain .card-title:hover {
+  color: #fe0040;
+}
+.ourTeamMain .card-subtitle {
+  font-size: 16px;
+  color: #666666;
+  text-align: center;
+  line-height: 30px;
+}
+/* _____________________________________________________________________ourTestimonialCard______________________ */
+.ourTestimonialCol {
+  padding: 0px;
+}
+.ourTestimonialMain {
+  padding: 80px 0px;
+}
+.ourTestimonialCard {
+  margin-top: 40px;
+}
+.ourTestimonialCard .featuresCard {
+  padding: 20px 50px;
+  box-shadow: none;
+  border: 1px solid #e2e1e1;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+.ourTestimonialCard .featuresCard:hover {
+  box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 8%);
+  border: none;
+}
+.ourTestimonialCard .slick-slider {
+  padding: 0px;
+}
+.testimonialImg {
+  position: absolute;
+  top: -50px;
+  left: 0px;
+  right: 0;
+  border-radius: 50px;
+}
+.testimonialQuote {
+  margin: 45px 0px 10px 0px;
+}
+.testimonialCard p {
+  font-size: 14px;
+  color: #666666;
+  line-height: 27px;
+}
+.testimonialCard h6 {
+  font-size: 15px;
+  color: #000;
+}
+.testimonialCard h2 {
+  font-size: 16px;
+  color: #fe0040;
+}
+.ourTestimonialMain .slick-next {
+  display: block;
+  bottom: 0;
+  top: -50px;
+  right: 20px;
+  left: auto;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px !important;
+  background-color: #fe0040;
+  opacity: unset;
+  transition: 0.5s ease;
+  box-shadow: 0 0 10px #e2e1e1;
+}
+.ourTestimonialMain .slick-prev {
+  display: block;
+  bottom: 0;
+  top: -50px;
+  right: 70px;
+  left: auto;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px !important;
+  background-color: #fe0040;
+  opacity: unset;
+  transition: 0.5s ease;
+  box-shadow: 0 0 10px #e2e1e1;
+}
+.ourTestimonialMain .slick-next:hover,
+.ourTestimonialMain .slick-prev:hover {
+  background-color: #ffffff;
+}
+.ourTestimonialMain .slick-next::before {
+  content: "\f061";
+  font-family: FontAwesome;
+  font-size: 25px;
+  opacity: 1;
+  transition: 0.5s ease;
+}
+.ourTestimonialMain .slick-prev::before {
+  content: "\f060";
+  font-family: FontAwesome;
+  font-size: 25px;
+  opacity: 1;
+  transition: 0.5s ease;
+}
+.ourTestimonialMain .slick-arrow:hover::before {
+  color: black;
+}
+/* ________________________________________________Contact Us______________________________________ */
+.contactUs {
+  padding: 60px 0px;
+}
+.aboutUsBannerImg {
+  background-image: url("../../assets/Images/ContactUs/ContactUsBanner.png");
+}
+.quickContact {
+  max-width: 85%;
+  float: right;
+  text-align: justify;
+  line-height: 35px;
+}
+.quickContact h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.quickContact p,
+.quickContact span {
+  color: #666666;
+}
+.formContactus {
+  max-width: 100%;
+}
+.contactUs .row.needs-validation {
+  align-items: center;
+  --bs-gutter-x: 0;
+}
+.contactUs .row.needs-validation [class*="col-"] {
+  padding: 0 5px;
+}
+.contactUsIconContain {
+  max-width: 70%;
+  margin-bottom: 10px;
+}
+.contactUsIconContain {
+  cursor: pointer;
+}
+.contactUsIconContain span {
+  display: inline-block;
+  max-width: 363px;
+  vertical-align: top;
+  margin-left: 20px;
+}
+.contactUsIconContain:hover i {
+  color: #fe0040;
+}
+
+.formContactus .form-control {
+  padding: 12px;
+}
+.formContactus input,
+.formContactus textarea {
+  box-shadow: none;
+  border: none;
+  font-size: 16px;
+  border-radius: 10px;
+  margin: 10px 0px;
+}
+.formContactus textarea {
+  min-height: 150px;
+}
+.formContactus .form-control:focus {
+  box-shadow: none;
+}
+/* _____________________________________________________ourBlog__________________________________ */
+.ourBlog {
+  margin: 80px 0px 60px 0px;
+}
+.ourBlogCard {
+  margin-top: 40px;
+}
+.ourBlogCard .card-body {
+  padding: 30px;
+}
+.ourBlogContain .ourBlogContainIcon {
+  float: right;
+}
+.ourBlogContainIcon i {
+  color: #fe0040;
+  margin-right: 5px;
+}
+.ourBlogCard .card-title {
+  font-size: 20px;
+  line-height: 35px;
+  color: #000000;
+  transition: 0.4s ease;
+  cursor: pointer;
+}
+.ourBlogCard .card-title:hover {
+  color: #fe0040;
+}
+.ourBlogCard .card-text {
+  font-size: 14px;
+  line-height: 30px;
+  color: #666666;
+}
+.ourBlogCard .card {
+  border-radius: 10px;
+}
+.slick-slider [class*="col-"] {
+  padding: 0 15px;
+}
+.ourBlogCard .slick-slide img {
+  display: block;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.ourBlog .slick-next {
+  display: block;
+  bottom: 0;
+  top: -50px;
+  right: 20px;
+  left: auto;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px !important;
+  background-color: #fe0040;
+  opacity: unset;
+  transition: 0.5s ease;
+  box-shadow: 0 0 10px #e2e1e1;
+}
+.ourBlog .slick-prev {
+  display: block;
+  bottom: 0;
+  top: -50px;
+  right: 70px;
+  left: auto;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px !important;
+  background-color: #fe0040;
+  opacity: unset;
+  transition: 0.5s ease;
+  box-shadow: 0 0 10px #e2e1e1;
+}
+.ourBlog .slick-next:hover,
+.ourBlog .slick-prev:hover {
+  background-color: #ffffff;
+}
+.ourBlog .slick-next::before {
+  content: "\f061";
+  font-family: FontAwesome;
+  font-size: 25px;
+  opacity: 1;
+  transition: 0.5s ease;
+}
+.ourBlog .slick-prev::before {
+  content: "\f060";
+  font-family: FontAwesome;
+  font-size: 25px;
+  opacity: 1;
+  transition: 0.5s ease;
+}
+.ourBlog .slick-arrow:hover::before {
+  color: black;
+}
+
+/* ______________________________________________________________Brand Logo_______________________________________________ */
+.brandLogo .slick-prev,
+.brandLogo .slick-next {
+  display: none !important;
+}
+.startedToday {
+  box-shadow: 0 -1px 7px -5px #333333de;
+  padding: 25px 0px;
+  margin-top: 60px;
+}
+
+.startedTodayMainDivFloat .row {
+  align-items: center;
+}
+.startedTodayMainDiv {
+  display: inline-block;
+}
+.startedTodaySideText {
+  text-align: right;
+}
+.startedTodayMainDiv h6 {
+  font-size: 18px;
+}
+.startedTodayMainDiv p {
+  font-size: 30px;
+  font-weight: 600;
+  max-width: 79%;
+  margin: 0;
+}
+
+/* ********************************************Responsive************************************************ */
+
+@media (min-width: 1200px) and (max-width: 1410px) {
+  /* _____________________________navbar_____________________________ */
+  /* _____________________________banner_____________________________ */
+  .bannerContain {
+    top: 25%;
+    max-width: 45%;
+  }
+  .bannerContain h1 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .bannerContain h5 {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .bannerBtn {
+    margin-top: 25px;
+  }
+  /*_____________________________title_____________________________ */
+  .titleFont h2 {
+    font-size: 45px;
+  }
+
+  /*_____________________________features_____________________________ */
+  .featuresCard {
+    padding: 30px;
+  }
+  .featuresCardContain h6 {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .featuresCardContain h3 {
+    font-size: 22px;
+    padding: 20px 0px 10px 0px;
+  }
+  /* _____________________________aboutUs_____________________________ */
+  .aboutSlider {
+    margin: 0 -15px;
+  }
+  .aboutSlider img {
+    padding: 0 15px;
+  }
+  .aboutUs h5 {
+    font-size: 16px;
+    line-height: 30px;
+    margin: 10px 0px;
+  }
+  .aboutUsIconSideText p {
+    font-size: 16px;
+  }
+  .aboutIconMainDivFloat {
+    margin: 15px 0px;
+  }
+
+  /* _____________________________Our Best Services_____________________________ */
+  .ourBestServices .card .card-title {
+    font-size: 22px;
+  }
+  .ourTestimonialCard .featuresCard {
+    padding: 15px 30px;
+  }
+  /* _____________________________Let's Contact Us_____________________________ */
+  .quickContact h2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+  }
+  /* _____________________________Our Blog_____________________________ */
+  .ourBlogCard .card-body {
+    padding: 25px;
+  }
+
+  /* _____________________________STARTED_____________________________ */
+  .startedTodayMainDiv p {
+    font-size: 25px;
+  }
+}
+/* ***************************************************** 992 - 1199 ***************************************************** */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* _____________________________navbar_____________________________ */
+  .navbar-light .navbar-nav .nav-link a {
+    font-size: 15px;
+    margin: 0px 10px;
+  }
+
+  /* _____________________________banner_____________________________ */
+  .bannerContain h6 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .bannerContain {
+    top: 26%;
+    left: 4%;
+  }
+  .bannerContain h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .bannerContain h5 {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .bannerBtn {
+    margin-top: 25px;
+  }
+  .homeBannerBtn {
+    min-width: 135px;
+    min-height: 43px;
+  }
+  /*_____________________________title_____________________________ */
+  .titleFont h2 {
+    font-size: 40px;
+  }
+
+  /*_____________________________features_____________________________ */
+  .ourFeature {
+    padding: 60px 0px;
+  }
+  .featuresCard {
+    padding: 25px;
+  }
+  .featuresCardCircle {
+    width: 90px;
+    height: 90px;
+  }
+  .featuresCardContain h6 {
+    font-size: 16px;
+    line-height: 27px;
+  }
+  .featuresCardContain h3 {
+    font-size: 20px;
+    padding: 17px 0px 10px 0px;
+  }
+  .details .summary {
+    padding-top: 0px;
+    font-size: 17px;
+  }
+  /* _____________________________Year of experience_____________________________ */
+  .scrollbar h3 {
+    font-size: 18px;
+    margin: 30px 0px 0px 0px;
+  }
+  .progress {
+    width: 380px;
+  }
+  /* _____________________________aboutUs_____________________________ */
+  .aboutSlider {
+    margin: 0 -15px;
+  }
+  .aboutSlider img {
+    padding: 0 15px;
+  }
+  .mainAboutUs {
+    margin: 60px 0px;
+  }
+  .aboutUs {
+    margin-left: 0px;
+  }
+  .aboutIconCircle {
+    width: 80px;
+    height: 80px;
+  }
+  .aboutUsIconSideText h6 {
+    font-size: 22px;
+  }
+  .aboutUs h5 {
+    font-size: 16px;
+    line-height: 30px;
+    margin: 10px 0px;
+  }
+  .aboutUsIconSideText p {
+    font-size: 16px;
+  }
+  .aboutIconMainDivFloat {
+    margin: 15px 0px;
+  }
+
+  /* _____________________________Our Best Services_____________________________ */
+  .ourBestServicesBanner {
+    padding: 60px 0px;
+  }
+  .ourBestServicesRow {
+    padding-top: 30px;
+  }
+  .ourBestServices .card-body {
+    padding: 20px 22px;
+  }
+  .ourBestServices .card .card-title {
+    font-size: 19px;
+  }
+  .ourBestServices .card .card-text {
+    font-size: 15px;
+    padding: 0px 0px;
+    line-height: 28px;
+  }
+  .ourTestimonialCard .featuresCard {
+    padding: 15px 15px;
+  }
+  /* _____________________________ Our Pricing _____________________________ */
+  .ourPricing {
+    padding: 60px 0px;
+  }
+  .ourPricingCard .featuresCard h2 {
+    font-size: 38px;
+  }
+  .ourPricingCard .featuresCard span {
+    font-size: 22px;
+    margin-left: 10px;
+  }
+  .ourPricingCard .featuresCard ul li {
+    font-size: 17px;
+    line-height: 40px;
+  }
+
+  /* _____________________________ourTeam_____________________________ */
+  .ourTeamMain .card-subtitle {
+    font-size: 15px;
+    line-height: 10px;
+  }
+
+  /* _____________________________Our Testimonial_____________________________ */
+
+  .ourTestimonialCard .featuresCard {
+    margin: 50px 0px 0px 0px;
+  }
+  .ourTestimonialMain {
+    padding: 60px 0px;
+  }
+  .testimonialCard p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .testimonialCard h6 {
+    font-size: 16px;
+  }
+
+  /* _____________________________Let's Contact Us_____________________________ */
+  .formContactus input,
+  .formContactus textarea {
+    margin: 0px;
+  }
+  .quickContact {
+    max-width: 95%;
+    line-height: 31px;
+  }
+  .quickContact h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  /* _____________________________Our Blog_____________________________ */
+  .ourBlog {
+    margin: 60px 0px;
+  }
+  .ourBlogCard .card-body {
+    padding: 20px;
+  }
+  .ourBlogCard .card-title {
+    font-size: 17px;
+    line-height: 25px;
+  }
+  .ourBlogCard .card-text {
+    line-height: 25px;
+  }
+
+  /* _____________________________STARTED_____________________________ */
+  .startedTodayMainDiv p {
+    font-size: 23px;
+  }
+  .startedToday {
+    margin-top: 60px;
+  }
+}
+/* ***************************************************** 768 - 991 ***************************************************** */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* _____________________________banner_____________________________ */
+
+  .bannerContain h6 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .bannerContain {
+    top: 33%;
+    left: 4%;
+    max-width: 50%;
+  }
+  .bannerContain h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .bannerContain h5 {
+    display: none;
+  }
+  .bannerBtn {
+    margin-top: 25px;
+  }
+
+  .homeBannerBtn {
+    min-width: 115px;
+    min-height: 40px;
+  }
+  .bannerBtn .homeBannerBtn {
+    margin-right: 20px;
+  }
+  .ourSurvice,
+  .ourContact {
+    padding: 7px 17px;
+  }
+  /*_____________________________title_____________________________ */
+  .titleFont h2 {
+    font-size: 34px;
+  }
+
+  /*_____________________________features_____________________________ */
+  .ourFeature {
+    padding: 50px 0px;
+  }
+  .featuresCard {
+    padding: 15px;
+  }
+  .featuresCardCircle {
+    width: 90px;
+    height: 90px;
+  }
+  .featuresCardContain h6 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .featuresCardContain h3 {
+    font-size: 20px;
+    padding: 17px 0px 10px 0px;
+  }
+  .details .summary {
+    padding-top: 0px;
+    font-size: 16px;
+  }
+  .mainFeaturesCard button {
+    margin-top: 30px;
+  }
+  /* _____________________________Year of experience_____________________________ */
+  .scrollbar h3 {
+    font-size: 18px;
+    margin: 30px 0px 0px 0px;
+  }
+  .progress {
+    width: 320px;
+  }
+  /* _____________________________aboutUs_____________________________ */
+
+  .aboutSlider img {
+    padding: 0 15px;
+  }
+  .aboutUs {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .aboutIconCircle {
+    width: 80px;
+    height: 80px;
+  }
+  .aboutUsIconSideText h6 {
+    font-size: 22px;
+  }
+  .aboutUs h5 {
+    font-size: 16px;
+    line-height: 30px;
+    margin: 10px 0px;
+  }
+  .aboutUsIconSideText p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .aboutIconMainDivFloat {
+    margin: 15px 0px;
+  }
+
+  /* _____________________________Our Best Services_____________________________ */
+  .ourBestServicesBanner {
+    padding: 50px 0px;
+  }
+  .ourBestServicesRow {
+    padding-top: 30px;
+  }
+  .ourBestServices .card-body {
+    padding: 10px 13px;
+  }
+  .ourBestServices .card .card-title {
+    font-size: 20px;
+  }
+  .ourBestServices .card .card-text {
+    font-size: 15px;
+    padding: 0px 0px;
+    line-height: 22px;
+    margin: 10px 0px;
+  }
+  .ourTestimonialCard .featuresCard {
+    padding: 15px 15px;
+  }
+  /* _____________________________ Our Pricing _____________________________ */
+  .ourPricing {
+    padding: 50px 0px;
+  }
+  .ourPricingCard .featuresCard h2 {
+    font-size: 26px;
+    line-height: 40px;
+  }
+  .ourPricingCard .featuresCard span {
+    font-size: 20px;
+    margin-left: 8px;
+  }
+  .ourPricingCard .featuresCard h5 {
+    font-size: 26px;
+    line-height: 40px;
+  }
+  .ourPricingCard .featuresCard h6 {
+    font-size: 16px;
+  }
+  .ourPricingCard .featuresCard ul li {
+    font-size: 16px;
+    line-height: 35px;
+  }
+
+  /* _____________________________ourTeamMain_____________________________ */
+  .ourTeamMain .card-title {
+    line-height: 15px;
+  }
+  .ourTeamMain .card-subtitle {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .ourTeamMain .card-body {
+    padding: 15px;
+  }
+
+  /* _____________________________Our Testimonial_____________________________ */
+
+  .ourTestimonialCard .featuresCard {
+    margin: 50px 0px 0px 0px;
+  }
+  .ourTestimonialMain {
+    padding: 50px 0px;
+  }
+  .testimonialCard p {
+    font-size: 13px;
+    line-height: 22px;
+    margin-bottom: 5px;
+  }
+  .testimonialCard h6 {
+    font-size: 15px;
+    margin-bottom: 1px;
+  }
+  .testimonialCard h2 {
+    font-size: 15px;
+  }
+
+  /* _____________________________Let's Contact Us_____________________________ */
+  .contactUs {
+    padding: 50px 0px;
+  }
+  .formContactus input,
+  .formContactus textarea {
+    margin: 0px;
+  }
+  .quickContact {
+    max-width: 95%;
+    line-height: 31px;
+  }
+  .quickContact h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .quickContact p {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .contactUsIconContain span {
+    font-size: 15px;
+    line-height: 22px;
+    max-width: 190px;
+  }
+  /* _____________________________Our Blog_____________________________ */
+  .ourBlog {
+    margin: 50px 0px;
+  }
+  .ourBlogContain .ourBlogContainIcon {
+    font-size: 12px;
+    margin-top: 3px;
+  }
+  .ourBlogContain span {
+    font-size: 12px;
+  }
+  .ourBlogContainIcon i {
+    font-size: 10px;
+  }
+  .ourBlogCard .card-body {
+    padding: 15px;
+  }
+  .ourBlogCard .card-title {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .ourBlogContain hr {
+    margin: 10px 0px;
+  }
+  .ourBlogCard .card-text {
+    line-height: 21px;
+    font-size: 13px;
+    text-align: justify;
+  }
+
+  /* _____________________________STARTED_____________________________ */
+  .startedTodayMainDiv p {
+    font-size: 20px;
+  }
+  .startedToday {
+    margin-top: 50px;
+    padding: 15px 0px;
+  }
+  .startedTodayMainDiv h6 {
+    font-size: 15px;
+  }
+}
+/* ***************************************************** 576 - 767 ***************************************************** */
+
+@media (min-width: 576px) and (max-width: 767px) {
+  /* _____________________________navbar_____________________________ */
+
+  /* _____________________________banner_____________________________ */
+  .bannerContain h6 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .bannerContain {
+    top: 35%;
+    left: 4%;
+    max-width: 50%;
+  }
+  .bannerContain h1 {
+    font-size: 23px;
+    line-height: 30px;
+  }
+  .bannerContain h5 {
+    display: none;
+  }
+  .bannerBtn {
+    margin-top: 15px;
+  }
+  .homeBannerBtn {
+    min-width: 100px;
+    min-height: 38px;
+    font-size: 14px;
+  }
+  .bannerBtn .homeBannerBtn {
+    margin-right: 15px;
+  }
+  .ourSurvice,
+  .ourContact {
+    padding: 6px 14px;
+    font-size: 14px;
+  }
+  .ourContact {
+    margin-left: 15px;
+  }
+  /*_____________________________title_____________________________ */
+  .titleFont h2 {
+    font-size: 26px;
+  }
+  .titleFont h3 {
+    font-size: 18px;
+  }
+  /*_____________________________features_____________________________ */
+  .ourFeature {
+    padding: 50px 0px;
+  }
+  .featuresCard {
+    padding: 15px;
+  }
+  .featuresCardCircle {
+    width: 80px;
+    height: 80px;
+  }
+  .featuresCardContain h6 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .featuresCardContain h3 {
+    font-size: 16px;
+    padding: 12px 0px 4px 0px;
+  }
+  .details .summary {
+    padding-top: 0px;
+    font-size: 15px;
+  }
+  .mainFeaturesCard button {
+    margin-top: 30px;
+  }
+  .mainFeaturesCard button {
+    margin-top: 25px;
+  }
+  /* _____________________________Year of experience_____________________________ */
+  .scrollbar h3 {
+    font-size: 14px;
+    margin: 10px 0px -10px 0px;
+  }
+  .progress {
+    width: 250px;
+  }
+  /* _____________________________aboutUs_____________________________ */
+  .aboutSliderDiv {
+    margin: 0 -15px;
+  }
+  .aboutSliderDiv img {
+    padding: 0 15px !important;
+  }
+  .aboutUs {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .mainAboutUs {
+    margin: 50px 0px;
+  }
+  .aboutIconCircle {
+    width: 80px;
+    height: 80px;
+  }
+  .aboutUsIconSideText h6 {
+    font-size: 18px;
+  }
+  .aboutUs h5 {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 10px 0px;
+  }
+  .aboutUsIconSideText p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .aboutIconMainDivFloat {
+    margin: 15px 0px;
+  }
+
+  .aboutSliderDiv {
+    margin: 0 -15px;
+  }
+  .aboutSliderDiv img {
+    padding: 0 15px !important;
+  }
+  /* _____________________________Our Best Services_____________________________ */
+  .ourBestServicesBanner {
+    padding: 50px 0px;
+  }
+  .ourBestServicesRow {
+    padding-top: 20px;
+  }
+  .ourBestServices .card-body {
+    padding: 10px 13px;
+  }
+  .ourBestServices .card .card-title {
+    font-size: 16px;
+  }
+  .ourBestServices .card .card-text {
+    font-size: 13px;
+    padding: 0px 0px;
+    line-height: 20px;
+    margin: 5px 0px;
+  }
+  .ourTestimonialCard .featuresCard {
+    padding: 15px 15px;
+  }
+  /* _____________________________ Our Pricing _____________________________ */
+  .ourPricing {
+    padding: 50px 0px;
+  }
+  .ourPricing .featuresCard {
+    padding: 15px;
+  }
+  .ourPricingCard {
+    margin-top: 20px;
+  }
+  .ourPricingCard .featuresCard h2 {
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .ourPricingCard .featuresCard span {
+    font-size: 16px;
+    margin-left: 5px;
+  }
+  .ourPricingCard .featuresCard h5 {
+    font-size: 22px;
+    line-height: 25px;
+  }
+  .ourPricingCard .featuresCard h6 {
+    font-size: 16px;
+  }
+  .ourPricingCard .featuresCard ul li {
+    font-size: 14px;
+    line-height: 27px;
+  }
+
+  /* _____________________________ourTeamMain_____________________________ */
+  .ourTeamMain .card-title {
+    line-height: 15px;
+    font-size: 16px;
+  }
+  .ourTeamMain .card-subtitle {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .ourTeamMain .card-body {
+    padding: 15px;
+  }
+  .ourTeamMain {
+    margin: 20px 0px 20px 0px;
+  }
+
+  /* _____________________________Our Testimonial_____________________________ */
+
+  .ourTestimonialCard .featuresCard {
+    padding: 30px 0px 50px 0px;
+  }
+  .ourTestimonialCard {
+    margin-top: 20px;
+  }
+  .ourTestimonialMain {
+    padding: 50px 0px;
+  }
+  .testimonialCard p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .testimonialCard h6 {
+    font-size: 16px;
+  }
+
+  /* _____________________________Let's Contact Us_____________________________ */
+  .contactUs {
+    padding: 50px 0px;
+  }
+  .formContactus input,
+  .formContactus textarea {
+    margin: 0px;
+  }
+  .quickContact {
+    max-width: 100%;
+    line-height: 31px;
+  }
+  .quickContact h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+  }
+  .quickContact p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .contactUsIconContain span {
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 328px;
+  }
+  .formContactus .form-control {
+    padding: 8px;
+    font-size: 13px;
+  }
+  /* _____________________________Our Blog_____________________________ */
+  .ourBlog {
+    margin: 50px 0px;
+  }
+  .ourBlogCard {
+    margin-top: 20px;
+  }
+  .ourBlogContain .ourBlogContainIcon {
+    font-size: 12px;
+    margin-top: 3px;
+  }
+  .ourBlogContain span {
+    font-size: 12px;
+  }
+  .ourBlogContainIcon i {
+    font-size: 10px;
+  }
+  .ourBlogCard .card-body {
+    padding: 15px;
+  }
+  .ourBlogCard .card-title {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .ourBlogContain hr {
+    margin: 4px 0px;
+  }
+  .ourBlogCard .card-text {
+    line-height: 21px;
+    font-size: 13px;
+    text-align: justify;
+  }
+
+  /* _____________________________STARTED_____________________________ */
+  .startedTodayMainDiv p {
+    font-size: 16px;
+  }
+  .startedToday {
+    margin-top: 50px;
+    padding: 15px 0px;
+  }
+  .startedTodayMainDiv h6 {
+    font-size: 14px;
+  }
+  /* ____________________Slider__________________ */
+  .ourTeamMain .slick-next,
+  .ourTestimonialMain .slick-next,
+  .ourBlog .slick-next {
+    width: 35px;
+    height: 35px;
+  }
+  .ourTeamMain .slick-prev,
+  .ourTestimonialMain .slick-prev,
+  .ourBlog .slick-prev {
+    width: 35px;
+    height: 35px;
+    right: 65px;
+  }
+  .ourTeamMain .slick-prev::before,
+  .ourTeamMain .slick-next::before,
+  .ourTestimonialMain .slick-prev::before,
+  .ourTestimonialMain .slick-next::before,
+  .aboutSlider .slick-prev::before,
+  .aboutSlider .slick-next::before,
+  .ourBlog .slick-prev::before,
+  .ourBlog .slick-next::before {
+    font-size: 18px;
+  }
+  .aboutSlider .slick-next {
+    width: 35px;
+    height: 35px;
+  }
+  .aboutSlider .slick-prev {
+    width: 35px;
+    height: 35px;
+  }
+}
+/* ***************************************************** 320 - 575 ***************************************************** */
+
+@media (min-width: 320px) and (max-width: 575px) {
+  /* _____________________________navbar_____________________________ */
+
+  /*_____________________________title_____________________________ */
+  .titleFont h2 {
+    font-size: 18px;
+  }
+  .titleFont h3 {
+    font-size: 16px;
+  }
+  /*_____________________________features_____________________________ */
+  .ourFeature h2 {
+    max-width: 70%;
+  }
+  .featuresCard {
+    margin-bottom: 15px;
+  }
+  .mainFeaturesCard {
+    margin-top: 20px;
+  }
+  .ourFeature {
+    padding: 30px 0px;
+  }
+  .featuresCard {
+    padding: 15px;
+    /* text-align: center; */
+  }
+  .featuresCardCircle {
+    width: 80px;
+    height: 80px;
+  }
+  .featuresCardContain h6 {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .featuresCardContain h3 {
+    font-size: 16px;
+    padding: 12px 0px 4px 0px;
+  }
+  .details .summary {
+    padding-top: 0px;
+    font-size: 14px;
+  }
+  .mainFeaturesCard button {
+    margin-top: 30px;
+  }
+  .mainFeaturesCard button {
+    margin-top: 0px;
+  }
+  /* _____________________________Year of experience_____________________________ */
+  .yearOfExperience {
+    text-align: center;
+  }
+  .homeYearExper {
+    display: none;
+  }
+  .progress {
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 320px;
+  }
+  .scrollbar {
+    margin-top: 20px;
+  }
+  .scrollbar h3 {
+    font-size: 14px;
+    margin: 10px 0px -10px 0px;
+    text-align: center;
+  }
+
+  .yearOfExperience img {
+    float: none;
+  }
+  /* _____________________________aboutUs_____________________________ */
+  .aboutSliderDiv {
+    margin: 0 -15px;
+  }
+  .aboutSliderDiv img {
+    padding: 0 15px !important;
+  }
+  .aboutUs {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .mainAboutUs {
+    margin: 40px 0px;
+  }
+  .aboutIconCircle {
+    width: 80px;
+    height: 80px;
+    margin-left: 7px;
+    box-shadow: 0 0 7px #e2e1e1;
+  }
+  .aboutUsIconSideText h6 {
+    font-size: 16px;
+  }
+  .aboutUs h5 {
+    font-size: 12px;
+    line-height: 20px;
+    margin: 10px 0px;
+  }
+  .aboutUsIconSideText p {
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0;
+  }
+  .aboutIconMainDivFloat {
+    margin: 15px 0px;
+  }
+
+  /* _____________________________Our Best Services_____________________________ */
+  .ourBestServices .titleFont {
+    max-width: 70%;
+  }
+  .ourBestServicesBanner {
+    padding: 30px 0px;
+  }
+  .ourBestServicesRow {
+    padding-top: 20px;
+  }
+  .ourBestServices .card-body {
+    padding: 10px 13px;
+  }
+  .ourBestServices .card .card-title {
+    font-size: 16px;
+  }
+  .ourBestServices .card .card-text {
+    font-size: 13px;
+    padding: 0px 0px;
+    line-height: 20px;
+    margin: 5px 0px;
+  }
+  .ourTestimonialCard .featuresCard {
+    padding: 15px 15px;
+  }
+  /* _____________________________ Our Pricing _____________________________ */
+  .ourPricingCard {
+    margin-top: 15px;
+  }
+  .ourPricing {
+    padding: 30px 0px;
+  }
+  .ourPricing .featuresCard {
+    padding: 15px;
+  }
+  .ourPricingCard .featuresCard h2 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+  .ourPricingCard .featuresCard span {
+    font-size: 18px;
+    margin-left: 5px;
+  }
+  .ourPricingCard .featuresCard h5 {
+    font-size: 24px;
+    line-height: 35px;
+  }
+  .ourPricingCard .featuresCard h6 {
+    font-size: 16px;
+  }
+  .ourPricingCard .featuresCard ul li {
+    font-size: 14px;
+    line-height: 27px;
+  }
+
+  /* _____________________________our Team_____________________________ */
+  .ourTeamMain .card-title {
+    line-height: 25px;
+    font-size: 16px;
+  }
+  .ourTeamMain .card-subtitle {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .ourTeamMain .card-body {
+    padding: 7px;
+  }
+  .ourTeamMain {
+    margin: 15px 0px 0px 0px;
+  }
+  /* _____________________________Our Testimonial_____________________________ */
+  .ourTestimonialCard {
+    margin-top: 15px;
+  }
+  .ourTestimonialCard .featuresCard {
+    margin: 50px 0px 0px 0px;
+  }
+  .ourTestimonialMain {
+    padding: 30px 0px;
+  }
+  .testimonialCard p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .testimonialCard h6 {
+    font-size: 16px;
+  }
+
+  /* _____________________________Let's Contact Us_____________________________ */
+  .formContactus {
+    max-width: 100%;
+  }
+  .contactUs {
+    padding: 30px 0px;
+  }
+  .formContactus input,
+  .formContactus textarea {
+    margin: 0px;
+  }
+  .quickContact {
+    max-width: 100%;
+    line-height: 0px;
+  }
+  .quickContact h2 {
+    font-size: 22px;
+    margin-bottom: 4px;
+    margin-top: 15px;
+  }
+  .quickContact p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .contactUsIconContain span {
+    font-size: 12px;
+    line-height: 20px;
+    max-width: 174px;
+  }
+  .formContactus .form-control {
+    padding: 8px;
+    font-size: 13px;
+  }
+  /* _____________________________Our Blog_____________________________ */
+  .ourBlog {
+    margin: 30px 0px;
+  }
+  .ourBlogCard {
+    margin-top: 15px;
+  }
+  .ourBlogContain .ourBlogContainIcon {
+    font-size: 12px;
+    margin-top: 3px;
+  }
+  .ourBlogContain span {
+    font-size: 12px;
+  }
+  .ourBlogContainIcon i {
+    font-size: 10px;
+  }
+  .ourBlogCard .card-body {
+    padding: 15px;
+  }
+  .ourBlogCard .card-title {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .ourBlogContain hr {
+    margin: 4px 0px;
+  }
+  .ourBlogCard .card-text {
+    line-height: 21px;
+    font-size: 13px;
+    text-align: justify;
+  }
+  .brandLogo .slick-prev {
+    display: none !important;
+  }
+  .brandLogo .slick-next {
+    display: none !important;
+  }
+  /* _____________________________ Brand Logo _____________________________ */
+
+  .brandLogo img {
+    max-width: 120px;
+  }
+  /* _____________________________STARTED_____________________________ */
+  .startedTodayMainDiv p {
+    font-size: 14px;
+    max-width: 100%;
+  }
+  .startedToday {
+    margin-top: 30px;
+    padding: 15px 0px;
+  }
+  .startedTodayMainDiv h6 {
+    font-size: 11px;
+  }
+  /* ____________________Slider__________________ */
+  .ourTeamMain .slick-next,
+  .ourTestimonialMain .slick-next,
+  .ourBlog .slick-next {
+    width: 32px;
+    height: 32px;
+  }
+  .ourTeamMain .slick-prev,
+  .ourTestimonialMain .slick-prev,
+  .ourBlog .slick-prev {
+    width: 32px;
+    height: 32px;
+    right: 60px;
+  }
+  .ourTeamMain .slick-prev::before,
+  .ourTeamMain .slick-next::before,
+  .ourTestimonialMain .slick-prev::before,
+  .ourTestimonialMain .slick-next::before,
+  .aboutSlider .slick-prev::before,
+  .aboutSlider .slick-next::before,
+  .ourBlog .slick-prev::before,
+  .ourBlog .slick-next::before {
+    font-size: 18px;
+  }
+  .aboutSlider .slick-next {
+    width: 32px;
+    height: 32px;
+  }
+  .aboutSlider .slick-prev {
+    width: 32px;
+    height: 32px;
+  }
+}
+@media (min-width: 320px) and (max-width: 399px) {
+  .header img {
+    height: 25px;
+  }
+  .navbar {
+    padding: 0;
+  }
+  /* _____________________________banner_____________________________ */
+  .bannerContain h6 {
+    font-size: 12px;
+    line-height: 10px;
+  }
+  .header .ourSurvice {
+    max-height: 30px;
+    margin-top: 5px;
+  }
+  .bannerContain {
+    top: 40%;
+    left: 4%;
+    max-width: 100%;
+  }
+  .bannerContain h1 {
+    font-size: 15px;
+    line-height: 15px;
+  }
+  .bannerContain h5 {
+    display: none;
+  }
+  .bannerBtn {
+    margin-top: 5px;
+  }
+
+  .ourSurvice {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+  .ourContact {
+    display: none;
+  }
+}
+@media (min-width: 400px) and (max-width: 575px) {
+  .header img {
+    height: 30px;
+  }
+  .header .ourSurvice {
+    max-height: 30px;
+    margin-top: 5px;
+  }
+  .navbar {
+    padding: 0;
+  }
+  /* _____________________________banner_____________________________ */
+
+  .bannerContain h6 {
+    font-size: 12px;
+    line-height: 10px;
+  }
+  .bannerContain {
+    top: 40%;
+    left: 4%;
+    max-width: 50%;
+  }
+  .bannerContain h1 {
+    font-size: 16px;
+    line-height: 15px;
+    margin-top: 13px;
+  }
+  .bannerContain h5 {
+    display: none;
+  }
+  .bannerBtn {
+    margin-top: 15px;
+  }
+
+  .ourSurvice,
+  .ourContact {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+  .ourContact {
+    margin-left: 10px;
+  }
+}
+@media (max-width: 767px) {
+}

@@ -1,0 +1,95 @@
+.faqBanner {
+  background-image: url("../../assets/Images/Faq/FaqBannerImg.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  padding: 180px 0px;
+  background-attachment: fixed;
+}
+.faqContain {
+  margin-top: 80px;
+  
+}
+.accordion-button:not(.collapsed) {
+  color: #fe0040;
+}
+.accordion-button{
+  background-color: #fff !important;
+}
+.accordion-item:first-of-type .accordion-button,
+.accordion-button,
+.accordion-button:focus {
+  box-shadow: none;
+}
+.accordion-body {
+  line-height: 35px;
+  color: #666666;
+}
+.accordion-button:not(.collapsed)::after{
+  filter: invert(30%) grayscale(100%) brightness(70%) contrast(4);
+}
+
+/* ********************************************Responsive************************************************ */
+
+@media (min-width: 1200px) and (max-width: 1410px) {
+
+}
+/* ***************************************************** 992 - 1199 ***************************************************** */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+.accordion-body {
+  line-height: 30px;
+  font-size: 14px;
+}
+.faqContain {
+  margin-top: 60px;
+}
+}
+/* ***************************************************** 768 - 991 ***************************************************** */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .accordion-button {
+    font-size: 14px;
+  }
+  .faqContain {
+    margin-top: 50px;
+  }
+}
+/* ***************************************************** 576 - 767 ***************************************************** */
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .accordion-button,
+  .accordion-body {
+    font-size: 13px;
+  }
+  .faqContain {
+    margin-top: 40px;
+  }
+}
+/* ***************************************************** 320 - 575 ***************************************************** */
+
+@media (min-width: 320px) and (max-width: 575px) {
+.accordion {
+  margin: 15px 0px;
+}
+  .accordion-button{
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .accordion-body {
+    font-size: 13px;
+    line-height: 24px;
+  }
+  .accordion-item:first-of-type .accordion-button,.accordion-button {
+    padding:10px;
+  }
+  .accordion-body{
+padding: 10px;
+padding-top: 0px;
+  }
+  .faqContain {
+    margin-top: 30px;
+  }
+}
