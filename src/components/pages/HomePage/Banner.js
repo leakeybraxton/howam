@@ -19,7 +19,6 @@ export default function Home() {
           }}
         />
         <div className="bannerContain">
-          <h6>HOWAM PRODUCTIONS</h6>
           <h1>WELCOME TO HOWAM</h1>
           <h5>
             Homam Productions offers therapy services both online and in-person,

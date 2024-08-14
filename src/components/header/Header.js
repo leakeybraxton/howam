@@ -98,9 +98,9 @@ const Header = (props) => {
                     <Nav.Link href="#service">
                       <Link to="/service">Services</Link>
                     </Nav.Link>
-                    {/* <Nav.Link href="#portfolio">
+                    <Nav.Link href="#portfolio">
                       <Link to="/portfolio">Portfolio</Link>
-                    </Nav.Link> */}
+                    </Nav.Link>
                     <Nav.Link href="#aboutus">
                       <Link to="/aboutus">About Us</Link>
                     </Nav.Link>

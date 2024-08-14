@@ -1,104 +1,71 @@
 import React, { Component } from "react";
 import { Row, Col } from "react-bootstrap";
-import Slider from "react-slick";
+import Mission from "../../../assets/Images/AboutUs/Mission.png";
+import Vision from "../../../assets/Images/AboutUs/Vision.png";
 import About1 from "../../../assets/Images/AboutUs/About1.png";
 import About2 from "../../../assets/Images/AboutUs/About2.png";
-import AboutSlider1 from "../../../assets/Images/AboutUs/AboutSlider1.png";
-import AboutSlider2 from "../../../assets/Images/AboutUs/AboutSlider2.png";
-import AboutSlider3 from "../../../assets/Images/AboutUs/AboutSlider3.png";
-import AboutSlider4 from "../../../assets/Images/AboutUs/AboutSlider4.png";
 import { Link } from "react-router-dom";
 export default class SimpleSlider extends Component {
   render() {
-    const settings = {
-      dots: false,
-      arrows: true,
-      slide: ".slick-slideshow__slide",
-      slidesToShow: 1,
-      centerMode: true,
-      centerPadding: "110px",
-      responsive: [
-        {
-          breakpoint: 1600,
-          settings: {
-            slidesToShow: 2,
-            centerMode: false,
-          },
-        },
-        {
-          breakpoint: 800,
-          settings: {
-            centerMode: false,
-            slidesToShow: 3,
-          },
-        },
-        {
-          breakpoint: 600,
-          settings: {
-            centerMode: false,
-            slidesToShow: 2,
-          },
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 1,
-            centerMode: false,
-          },
-        },
-      ],
-    };
     return (
       <>
         <div className="container">
           <div className="mainAboutUs">
+            <div className="aboutUs">
+              <div className="titleFont">
+                <h1>About Us</h1>
+              </div>
+            </div>
             <Row>
               <Col xl={6} lg={6} data-aos="fade-up">
-                <div className="aboutSliderDiv">
-                  <Slider className="aboutSlider" {...settings}>
-                    <div>
-                      <img
-                        className="img-fluid mx-auto"
-                        src={AboutSlider2}
-                        alt="AboutSlider"
-                      />
+                <div className="aboutUs">
+                  <div className="aboutIconMainDivFloat">
+                    <div className="aboutIconMainDiv">
+                      <div className="aboutIconCircle">
+                        <img
+                          className="img-fluid mx-auto"
+                          src={Mission}
+                          alt="OurFeature"
+                        />
+                      </div>
                     </div>
-                    <div>
-                      <img
-                        className="img-fluid mx-auto"
-                        src={AboutSlider3}
-                        alt="AboutSlider"
-                      />
+                    <div className="aboutUsIconSideText">
+                      <h6> Mission Statement </h6>
+                      <p>
+                        Our mission is to cultivate a community that embraces
+                        the transformative power of art, prioritizes mental and
+                        emotional well-being, and fosters a lifestyle grounded
+                        in sustainability and health. We strive to create
+                        environments where creativity flourishes, healing takes
+                        place, and individuals are empowered to live their best
+                        lives.
+                      </p>
                     </div>
-                    <div>
-                      <img
-                        className="img-fluid mx-auto"
-                        src={AboutSlider1}
-                        alt="AboutSlider"
-                      />
+                  </div>
+                  <div className="aboutIconMainDivFloat">
+                    <div className="aboutIconMainDiv">
+                      <div className="aboutIconCircle">
+                        <img
+                          className="img-fluid mx-auto"
+                          src={Vision}
+                          alt="OurFeature"
+                        />
+                      </div>
                     </div>
-                    <div>
-                      <img
-                        className="img-fluid mx-auto"
-                        src={AboutSlider4}
-                        alt="AboutSlider"
-                      />
+                    <div className="aboutUsIconSideText">
+                      <h6> Vision Statement </h6>
+                      <p>
+                        To be a beacon of holistic well-being, where art,
+                        therapy, and healthy living converge to inspire a
+                        harmonious and empowered community.
+                      </p>
                     </div>
-                  </Slider>
+                  </div>
                 </div>
               </Col>
 
               <Col xl={6} lg={6} data-aos="fade-up">
                 <div className="aboutUs">
-                  <div className="titleFont">
-                    <h3>About Us</h3>
-                    <h2>Holistic Wellness and Empowering Education</h2>
-                    <h5>
-                      At Homam Productions, we are dedicated to empowering
-                      individuals and enhancing lives through our comprehensive
-                      services and better education.
-                    </h5>
-                  </div>
                   <div className="aboutIconMainDivFloat">
                     <div className="aboutIconMainDiv">
                       <div className="aboutIconCircle">
@@ -138,12 +105,23 @@ export default class SimpleSlider extends Component {
                       </p>
                     </div>
                   </div>
-                  <button className="homeBannerBtn ourSurvice">
-                    <Link to="/aboutus">About More</Link>
-                  </button>
                 </div>
               </Col>
             </Row>
+            <br />
+            <div className="aboutUs">
+              <div className="titleFont">
+                <h1>Holistic Wellness and Empowering Education</h1>
+                <h5>
+                  At Homam Productions, we are dedicated to empowering
+                  individuals and enhancing lives through our comprehensive
+                  services and better education.
+                </h5>
+              </div>
+              <button className="homeBannerBtn ourSurvice">
+                <Link to="/aboutus">About More</Link>
+              </button>
+            </div>
           </div>
         </div>
       </>
