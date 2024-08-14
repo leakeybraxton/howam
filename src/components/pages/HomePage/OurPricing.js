@@ -29,16 +29,12 @@ export default function OurPricing() {
                       <h3>Classes and Products</h3>
                       <br />
                       <Card.Text>
-                        <h5>
-                          We work on getting our clients promotions to make our
-                          services available and pocket friendly.
-                        </h5>
+                        We work on getting our clients promotions to make our
+                        services available and pocket friendly.
                       </Card.Text>
                       <Card.Text>
-                        <h5>
-                          Checkout on our promotion and blogs page for latest
-                          promotions
-                        </h5>
+                        Checkout on our promotion and blogs page for latest
+                        promotions
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -56,18 +52,14 @@ export default function OurPricing() {
                       <h3>For Students</h3>
                       <br />
                       <Card.Text>
-                        <h5>
-                          We strive from time to time to provide qualified
-                          students with oppotunities to use their expertise for
-                          our market place.
-                        </h5>
+                        We strive from time to time to provide qualified
+                        students with oppotunities to use their expertise for
+                        our market place.
                       </Card.Text>
                       <Card.Text>
-                        <h5>
-                          Some of our skilled students might be lucky to work at
-                          our field stations to begin their experience journey
-                          in the field.
-                        </h5>
+                        Some of our skilled students might be lucky to work at
+                        our field stations to begin their experience journey in
+                        the field.
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -85,16 +77,12 @@ export default function OurPricing() {
                       <h3>For Students</h3>
                       <br />
                       <Card.Text>
-                        <h5>
-                          At Homam Productions, the online college is designed
-                          to be accessible and affordable for students.
-                        </h5>
+                        At Homam Productions, the online college is designed to
+                        be accessible and affordable for students.
                       </Card.Text>
                       <Card.Text>
-                        <h5>
-                          We provide certification for qualified students to
-                          join the job market.
-                        </h5>
+                        We provide certification for qualified students to join
+                        the job market.
                       </Card.Text>
                     </Card.Body>
                   </Card>
