@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Nav, Button, NavDropdown } from "react-bootstrap";
+import { Navbar, Nav, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import ThemeLogo from "../../assets/Images/BrandLogo/ThemeLogo.png";
 import BlackThemeLogo from "../../assets/Images/BrandLogo/BlackThemeLogo.png";
@@ -7,7 +7,7 @@ import { useState } from "react";
 const Header = (props) => {
   var className = "inverted";
   const [addClass, setAddClass] = useState("");
-  const [showDropdown, setShowDropdown] = useState(false);
+
   var scrollTrigger = 20;
 
   const onToggle = () => {
@@ -94,28 +94,7 @@ const Header = (props) => {
                     <Nav.Link href="home">
                       <Link to="/home"> Home </Link>
                     </Nav.Link>
-                    <NavDropdown
-                      title="Pages"
-                      id="collasible-nav-dropdown"
-                      show={showDropdown}
-                      onMouseLeave={() => setShowDropdown(false)}
-                      onMouseOver={() => setShowDropdown(true)}
-                    >
-                      <NavDropdown.Item href="#faq">
-                        <Link to="/faq">FAQ</Link>
-                      </NavDropdown.Item>
 
-                      <NavDropdown.Item href="#planing">
-                        <Link to="/planing">Planing</Link>
-                      </NavDropdown.Item>
-
-                      <NavDropdown.Item href="#contact">
-                        <Link to="/contact">Contact</Link>
-                      </NavDropdown.Item>
-                      <NavDropdown.Item href="#blog">
-                        <Link to="/blog">Blog</Link>
-                      </NavDropdown.Item>
-                    </NavDropdown>
                     <Nav.Link href="#service">
                       <Link to="/service">Services</Link>
                     </Nav.Link>
@@ -124,6 +103,12 @@ const Header = (props) => {
                     </Nav.Link> */}
                     <Nav.Link href="#aboutus">
                       <Link to="/aboutus">About Us</Link>
+                    </Nav.Link>
+                    <Nav.Link href="#planing">
+                      <Link to="/planing">Payment</Link>
+                    </Nav.Link>
+                    <Nav.Link href="#blog">
+                      <Link to="/blog">Blog</Link>
                     </Nav.Link>
                     <Nav.Link href="#signin">
                       <span
@@ -136,8 +121,8 @@ const Header = (props) => {
                   </Nav>
                 </div>
                 <div className="w3-overlay w3-animate-opacity"></div>
-                <button className="ourSurvice">
-                  <Link to="/signin">Get Started </Link>
+                <button className="ourSurvic">
+                  <Link to="/signin"> </Link>
                 </button>
               </div>
             </Navbar>

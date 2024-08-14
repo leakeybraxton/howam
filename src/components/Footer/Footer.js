@@ -135,6 +135,7 @@ export const Footer = () => {
       </div>
       <div className="footer-bottom">
         <h6 className="F-copywrite">Copyright © 2024 . All Rights Reserved</h6>
+        <h6 className="F-copywrite">Powered by Leakey Technologies</h6>
       </div>
     </>
   );
