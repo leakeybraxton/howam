@@ -93,6 +93,17 @@ export const Footer = () => {
                 <h3>Follow Us </h3>
 
                 <ul className="list-unstyled social-icon">
+                  <li
+                    className="d-inline-block"
+                    style={{ marginBottom: "10px" }}
+                  >
+                    <a
+                      href="https://www.facebook.com/howam254"
+                      className="d-block"
+                    >
+                      <i className="fa fa-facebook"></i>
+                    </a>
+                  </li>
                   <li className="d-inline-block">
                     <a
                       href="https://www.tiktok.com/@howam_ke"
