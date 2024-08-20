@@ -383,69 +383,73 @@ export default function Service() {
       <AmazingExpertise />
       {/* <OurPricing /> */}
       <div className="container">
-        <h2>Kids Courses</h2>
-        <Table striped bordered hover data-aos="fade-up">
-          <thead>
-            <tr>
-              <th>Code</th>
-              <th>Course Name</th>
-              <th>Duration(mounths)</th>
-              <th>Fees</th>
-            </tr>
-          </thead>
-          <tbody>
-            {tableDataKids.map((row, index) => (
-              <tr key={index}>
-                <td>{row.column1}</td>
-                <td>{row.column2}</td>
-                <td>{row.column3}</td>
-                <td>{row.column4}</td>
-              </tr>
-            ))}
-          </tbody>
+        <div className="ourTestimonialMain">
+          <div className="ourTestimonialCard text-center">
+            <h2>Kids Courses</h2>
+            <Table striped bordered hover data-aos="fade-up">
+              <thead>
+                <tr>
+                  <th>Code</th>
+                  <th>Course Name</th>
+                  <th>Duration(mounths)</th>
+                  <th>Fees</th>
+                </tr>
+              </thead>
+              <tbody>
+                {tableDataKids.map((row, index) => (
+                  <tr key={index}>
+                    <td>{row.column1}</td>
+                    <td>{row.column2}</td>
+                    <td>{row.column3}</td>
+                    <td>{row.column4}</td>
+                  </tr>
+                ))}
+              </tbody>
 
-          <h2>Adult courses</h2>
+              <h2>Adult courses</h2>
 
-          <tbody>
-            {tableDataAdults.map((row, index) => (
-              <tr key={index}>
-                <td>{row.column1}</td>
-                <td>{row.column2}</td>
-                <td>{row.column3}</td>
-                <td>{row.column4}</td>
-              </tr>
-            ))}
-          </tbody>
+              <tbody>
+                {tableDataAdults.map((row, index) => (
+                  <tr key={index}>
+                    <td>{row.column1}</td>
+                    <td>{row.column2}</td>
+                    <td>{row.column3}</td>
+                    <td>{row.column4}</td>
+                  </tr>
+                ))}
+              </tbody>
 
-          <h2>Skills courses</h2>
+              <h2>Skills courses</h2>
 
-          <tbody>
-            {tableDataSkills.map((row, index) => (
-              <tr key={index}>
-                <td>{row.column1}</td>
-                <td>{row.column2}</td>
-                <td>{row.column3}</td>
-                <td>{row.column4}</td>
-              </tr>
-            ))}
-          </tbody>
+              <tbody>
+                {tableDataSkills.map((row, index) => (
+                  <tr key={index}>
+                    <td>{row.column1}</td>
+                    <td>{row.column2}</td>
+                    <td>{row.column3}</td>
+                    <td>{row.column4}</td>
+                  </tr>
+                ))}
+              </tbody>
 
-          <h2>Language courses</h2>
+              <h2>Language courses</h2>
 
-          <tbody>
-            {tableDataLanguage.map((row, index) => (
-              <tr key={index}>
-                <td>{row.column1}</td>
-                <td>{row.column2}</td>
-                <td>{row.column3}</td>
-                <td>{row.column4}</td>
-              </tr>
-            ))}
-          </tbody>
-        </Table>
-        {/* <button className="homeBannerBtn ourSurvice">
-          <Link to="#">Get started</Link>
-        </button> */}
+              <tbody>
+                {tableDataLanguage.map((row, index) => (
+                  <tr key={index}>
+                    <td>{row.column1}</td>
+                    <td>{row.column2}</td>
+                    <td>{row.column3}</td>
+                    <td>{row.column4}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </Table>
+            {/* <button className="homeBannerBtn ourSurvice">
+              <Link to="#">Get started</Link>
+            </button> */}
+          </div>
+        </div>
       </div>
       <OurTestimonial />
       <Innovation />
