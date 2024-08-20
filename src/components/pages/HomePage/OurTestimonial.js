@@ -6,6 +6,7 @@ import Testimonial1 from "../../../assets/Images/Testimonial/Testimonial1.png";
 import Testimonial2 from "../../../assets/Images/Testimonial/Testimonial2.png";
 import Testimonial3 from "../../../assets/Images/Testimonial/Testimonial3.png";
 import Testimonial4 from "../../../assets/Images/Testimonial/Testimonial4.png";
+// import { Link } from "react-router-dom";
 
 import "aos/dist/aos.css";
 export default class OurTestimonial extends Component {
@@ -52,7 +53,6 @@ export default class OurTestimonial extends Component {
             <div className="titleFont">
               <h2>Latteloft Coffee Place</h2>
               <h3>Visit out coffee shop branches and enjoy</h3>
-              <h3>At Jbavu house hurlingham</h3>
             </div>
             <div className="ourTestimonialCard text-center">
               <Row>
@@ -73,12 +73,12 @@ export default class OurTestimonial extends Component {
                         alt="ourTestimonial"
                       />
                       <p>
-                        Lorem Ipsum is simply dummy text of the printing and
+                        {/* Lorem Ipsum is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since.
+                        industry's standard dummy text ever since. */}
                       </p>
-                      <h6>Raina Roy</h6>
-                      <h2>Web Designer</h2>
+                      {/* <h6>Raina Roy</h6>
+                      <h2>Web Designer</h2> */}
                     </div>
                   </Col>
                   <Col xl={4} lg={4} md={4} className="ourTestimonialCol">
@@ -97,12 +97,12 @@ export default class OurTestimonial extends Component {
                         alt="ourTestimonial"
                       />
                       <p>
-                        Lorem Ipsum is simply dummy text of the printing and
+                        {/* Lorem Ipsum is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since.
+                        industry's standard dummy text ever since. */}
                       </p>
-                      <h6>Raina Roy</h6>
-                      <h2>Web Designer</h2>
+                      {/* <h6>Raina Roy</h6>
+                      <h2>Web Designer</h2> */}
                     </div>
                   </Col>
                   <Col xl={4} lg={4} md={4} className="ourTestimonialCol">
@@ -120,13 +120,13 @@ export default class OurTestimonial extends Component {
                         src={quote}
                         alt="ourTestimonial"
                       />
-                      <p>
+                      {/* <p>
                         Lorem Ipsum is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum has been the
                         industry's standard dummy text ever since.
-                      </p>
-                      <h6>Raina Roy</h6>
-                      <h2>Web Designer</h2>
+                      </p> */}
+                      {/* <h6>Raina Roy</h6>
+                      <h2>Web Designer</h2> */}
                     </div>
                   </Col>
                   <Col xl={4} lg={4} md={4} className="ourTestimonialCol">
@@ -145,17 +145,21 @@ export default class OurTestimonial extends Component {
                         alt="ourTestimonial"
                       />
                       <p>
-                        Lorem Ipsum is simply dummy text of the printing and
+                        {/* Lorem Ipsum is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since.
+                        industry's standard dummy text ever since. */}
                       </p>
-                      <h6>Raina Roy</h6>
-                      <h2>Web Designer</h2>
+                      {/* <h6>Raina Roy</h6>
+                      <h2>Web Designer</h2> */}
                     </div>
                   </Col>
                 </Slider>
               </Row>
             </div>
+            <br />
+            {/* <button className="homeBannerBtn ourSurvice">
+              <Link to="#">Get started</Link>
+            </button> */}
           </div>
         </div>
       </>

@@ -456,7 +456,7 @@
 }
 .ourPricingCard .featuresCard h5 {
   font-size: 30px;
-  color: #3614f9;
+  color: #0077b6;
   font-weight: 600;
   line-height: 65px;
 }
@@ -2057,6 +2057,7 @@
 
   .brandLogo img {
     max-width: 120px;
+    max-height: 10px;
   }
   /* _____________________________STARTED_____________________________ */
   .startedTodayMainDiv p {

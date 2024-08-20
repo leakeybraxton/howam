@@ -53,7 +53,7 @@ export const Contact = () => {
       </div>
       <ContactUs />
       <Iframe
-        url="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2965.0824050173574!2d-93.63905729999999!3d41.998507000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sWebFilings%2C+University+Boulevard%2C+Ames%2C+IA!5e0!3m2!1sen!2sus!4v1390839289319"
+        url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.800807442994!2d36.795024973863114!3d-1.2940178356323049!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10bdce3bbadb%3A0x48098fad6ba7df0a!2sJabavu%20House%2C%20Jabavu%20Ln%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1724104700740!5m2!1sen!2ske"
         width="100%"
         height="450px"
         id="myId"

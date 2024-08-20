@@ -13,6 +13,7 @@ export default function OurPricing() {
         <div className="ourPricing">
           <div className="titleFont">
             <h1>Our Pricing</h1>
+
             <h3>Friendly Prices on all Aspects</h3>
           </div>
           <div className="ourPricingCard text-center">

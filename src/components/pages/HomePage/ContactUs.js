@@ -77,7 +77,7 @@ export default function ContactUs() {
                   </p>
                   <div className="contactUsIconContain">
                     <i className="fa fa-map-marker"></i>
-                    <span>Nairobi, Kenya</span>
+                    <span>Jabavu House, Hurlingham, Nairobi, Kenya</span>
                   </div>
                   <div className="contactUsIconContain">
                     <i className="fas fa-phone-alt"></i>
@@ -85,7 +85,7 @@ export default function ContactUs() {
                   </div>
                   <div className="contactUsIconContain">
                     <i className="fas fa-envelope"></i>
-                    <span>howamproductions@gmail.com</span>
+                    <span>info@howam.africa</span>
                   </div>
                 </div>
               </Col>

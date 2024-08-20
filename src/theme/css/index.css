@@ -81,7 +81,7 @@ body {
 
 .titleFont h1 {
   font-size: 50px;
-  color: #3614f9;
+  color: #0077b6;
 }
 
 .titleFont h2 {
@@ -91,7 +91,7 @@ body {
 }
 .navbar-light .navbar-nav .nav-link a,
 .navbar-light .navbar-nav .nav-link {
-  color: #fff;
+  color: #000000;
   text-decoration: none;
   font-size: 18px;
   position: relative;
@@ -159,7 +159,7 @@ body {
 .navbar-toggler-icon:after {
   content: "\f0c9";
   font-family: "fontAwesome";
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .header .inverted .navbar-toggler-icon:after {
@@ -232,7 +232,7 @@ body {
   border-radius: 5px;
 }
 .otherPageBanner h2 {
-  color: #ffffffa8;
+  color: #0077b6;
   font-size: 17px;
   font-weight: 400;
   line-height: 34px;
@@ -242,7 +242,7 @@ body {
   font-size: 58px;
   font-weight: 500;
   line-height: 62px;
-  color: #ffffffff;
+  color: #ffffff;
 }
 /* ___________________________Footer_____________________________ */
 .footer {
@@ -646,7 +646,7 @@ body {
     left: 0;
     right: auto;
     z-index: 4;
-    background: #fff;
+    background: #ffffff;
     width: 280px;
     transform: translateX(-100%);
     transition: all 0.5s ease-out 0s;
@@ -659,7 +659,7 @@ body {
     padding: 12px 15px;
     width: 100%;
     display: inline-block;
-    color: #fff;
+    color: #1c09f7;
     letter-spacing: 1px;
   }
   .sidenav .menu-responive {

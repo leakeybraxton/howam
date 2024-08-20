@@ -94,21 +94,23 @@ const Header = (props) => {
                     <Nav.Link href="home">
                       <Link to="/home"> Home </Link>
                     </Nav.Link>
-
+                    <Nav.Link href="#aboutus">
+                      <Link to="/aboutus">About Us</Link>
+                    </Nav.Link>
                     <Nav.Link href="#service">
                       <Link to="/service">Services</Link>
+                    </Nav.Link>
+                    <Nav.Link href="#planing">
+                      <Link to="/planing">Payments</Link>
                     </Nav.Link>
                     <Nav.Link href="#portfolio">
                       <Link to="/portfolio">Portfolio</Link>
                     </Nav.Link>
-                    <Nav.Link href="#aboutus">
-                      <Link to="/aboutus">About Us</Link>
-                    </Nav.Link>
-                    <Nav.Link href="#planing">
-                      <Link to="/planing">Payment</Link>
-                    </Nav.Link>
                     <Nav.Link href="#blog">
                       <Link to="/blog">Blog</Link>
+                    </Nav.Link>
+                    <Nav.Link href="#blog">
+                      <Link to="/contact">Contact</Link>
                     </Nav.Link>
                     <Nav.Link href="#signin">
                       <span
