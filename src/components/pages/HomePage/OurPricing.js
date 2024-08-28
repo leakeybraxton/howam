@@ -78,7 +78,7 @@ export default function OurPricing() {
                       <h3>For Students</h3>
                       <br />
                       <Card.Text>
-                        At Homam Productions, the online college is designed to
+                        At Howam Productions, the online college is designed to
                         be accessible and affordable for students.
                       </Card.Text>
                       <Card.Text>

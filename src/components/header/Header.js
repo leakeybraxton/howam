@@ -89,7 +89,7 @@ const Header = (props) => {
                   <Nav
                     className="justify-content-center"
                     id="myOverlay"
-                    style={{ flex: 1 }}
+                    style={{ flex: 1, marginTop: "30px" }}
                   >
                     <Nav.Link href="home">
                       <Link to="/home"> Home </Link>

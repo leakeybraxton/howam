@@ -1,6 +1,29 @@
 .mainBannerDiv {
   position: relative;
 }
+
+.image-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Dark overlay */
+  z-index: 1;
+}
+
 .bannerContain {
   position: absolute;
   top: 30%;
@@ -14,14 +37,14 @@
   line-height: 30px;
 }
 .bannerContain h1 {
-  font-size: 60px;
+  font-size: 55px;
   color: #ffffff;
   font-weight: 600;
   line-height: 90px;
 }
 .bannerContain h5 {
   font-size: 18px;
-  color: #b7b1b1;
+  color: #fff;
   line-height: 35px;
 }
 .bannerBtn {

@@ -113,7 +113,7 @@ export default class SimpleSlider extends Component {
               <div className="titleFont">
                 <h1>Holistic Wellness and Empowering Education</h1>
                 <h5>
-                  At Homam Productions, we are dedicated to empowering
+                  At Howam Productions, we are dedicated to empowering
                   individuals and enhancing lives through our comprehensive
                   services and better education.
                 </h5>
