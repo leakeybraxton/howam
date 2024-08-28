@@ -37,7 +37,7 @@ export default function Planning() {
                 <h2> Money back guarantee</h2>
                 <h6>
                   {" "}
-                  Homam Productions offers a money-back guarantee for certain
+                  Howam Productions offers a money-back guarantee for certain
                   services and programs{" "}
                 </h6>
               </div>

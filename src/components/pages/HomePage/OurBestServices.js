@@ -66,7 +66,7 @@ export default function OurBestServices() {
                     <Card.Body>
                       <Card.Title>Dedicate Workforce</Card.Title>
                       <Card.Text>
-                        Homam Productions boasts a diverse and talented team,
+                        Howam Productions boasts a diverse and talented team,
                         including licensed therapists, educators, marketplace
                         experts, and support staff. Each member is dedicated to
                         delivering exceptional services and innovative
@@ -91,7 +91,7 @@ export default function OurBestServices() {
                     <Card.Body>
                       <Card.Title>Dedicated Services</Card.Title>
                       <Card.Text>
-                        Homam Productions provides personalized therapy
+                        Howam Productions provides personalized therapy
                         services, a curated online marketplace for health and
                         lifestyle products, and flexible online education
                         programs. Each service is designed with a commitment to
@@ -116,7 +116,7 @@ export default function OurBestServices() {
                     <Card.Body>
                       <Card.Title>Expert Consultants</Card.Title>
                       <Card.Text>
-                        Homam Productions features a team of expert consultants
+                        Howam Productions features a team of expert consultants
                         with extensive knowledge and experience in their fields.
                         These professionals offer specialized guidance and
                         insights to enhance our therapy services, marketplace
@@ -140,7 +140,7 @@ export default function OurBestServices() {
                     <Card.Body>
                       <Card.Title>Quick Responses </Card.Title>
                       <Card.Text>
-                        At Homam Productions, we prioritize prompt and efficient
+                        At Howam Productions, we prioritize prompt and efficient
                         communication. Our team is dedicated to providing quick
                         responses to inquiries, ensuring timely support and
                         solutions.

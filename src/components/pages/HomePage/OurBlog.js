@@ -89,7 +89,7 @@ export default class OurBlog extends Component {
                         <Card.Body>
                           <div className="blogCardBody">
                             <div className="d-inline ourBlogContain">
-                              <span>14 March 2024</span>
+                              <span>22 August 2024</span>
                               <span className="d-inline ourBlogContainIcon">
                                 <i
                                   className="fa fa-user"
@@ -99,12 +99,13 @@ export default class OurBlog extends Component {
                               </span>
                             </div>
                             <hr />
-                            <Card.Title>Howam Productions.</Card.Title>
+                            <Card.Title>Art Therapy.</Card.Title>
                             <Card.Text>
-                              Lorem Ipsum is simply dummy text of the printing
-                              and typesetting industry. Lorem Ipsum has been the
-                              industry's standard dummy text ever since to 00s,
-                              when an unknown printer.
+                              Art therapy in theatre is a powerful way to
+                              explore and express emotions, offering a creative
+                              outlet for mental health. Through movement,
+                              storytelling, and visual arts, it provides a safe
+                              space to heal, connect, and find inner peace.
                             </Card.Text>
                             <button className="homeBannerBtn ourSurvice">
                               <Link to="/portfolio"> Get Started</Link>
@@ -127,7 +128,7 @@ export default class OurBlog extends Component {
                         <Card.Body>
                           <div className="blogCardBody">
                             <div className="d-inline ourBlogContain">
-                              <span>14 March 2024</span>
+                              <span>22 August 2024</span>
                               <span className="d-inline ourBlogContainIcon">
                                 <i
                                   className="fa fa-user"
@@ -137,12 +138,11 @@ export default class OurBlog extends Component {
                               </span>
                             </div>
                             <hr />
-                            <Card.Title>Howam Productions.</Card.Title>
+                            <Card.Title>Mental Health.</Card.Title>
                             <Card.Text>
-                              Lorem Ipsum is simply dummy text of the printing
-                              and typesetting industry. Lorem Ipsum has been the
-                              industry's standard dummy text ever since to 00s,
-                              when an unknown printer.
+                              Commemorate Men’s Mental Health Month, let’s
+                              commit to continuing the conversation throughout
+                              the year.
                             </Card.Text>
                             <button className="homeBannerBtn ourSurvice">
                               <Link to="/portfolio"> Get Started</Link>
@@ -165,7 +165,7 @@ export default class OurBlog extends Component {
                         <Card.Body>
                           <div className="blogCardBody">
                             <div className="d-inline ourBlogContain">
-                              <span>14 March 2024</span>
+                              <span>22 August 2024</span>
                               <span className="d-inline ourBlogContainIcon">
                                 <i
                                   className="fa fa-user"
@@ -175,13 +175,8 @@ export default class OurBlog extends Component {
                               </span>
                             </div>
                             <hr />
-                            <Card.Title>Howam productons.</Card.Title>
-                            <Card.Text>
-                              Lorem Ipsum is simply dummy text of the printing
-                              and typesetting industry. Lorem Ipsum has been the
-                              industry's standard dummy text ever since to 00s,
-                              when an unknown printer.
-                            </Card.Text>
+                            {/* <Card.Title>Learn to Earn.</Card.Title> */}
+                            <Card.Text></Card.Text>
                             <button className="homeBannerBtn ourSurvice">
                               <Link to="/portfolio"> Get Started</Link>
                             </button>
@@ -190,7 +185,7 @@ export default class OurBlog extends Component {
                       </Card>
                     </div>
                   </Col>
-                  <Col xl={4}>
+                  {/* <Col xl={4}>
                     <div className="ourBlogCard" data-aos="fade-up">
                       <Card>
                         <div className="bimg">
@@ -203,7 +198,7 @@ export default class OurBlog extends Component {
                         <Card.Body>
                           <div className="blogCardBody">
                             <div className="d-inline ourBlogContain">
-                              <span>14 March 2024</span>
+                              <span>22 August 2024</span>
                               <span className="d-inline ourBlogContainIcon">
                                 <i
                                   className="fa fa-user"
@@ -241,7 +236,7 @@ export default class OurBlog extends Component {
                         <Card.Body>
                           <div className="blogCardBody">
                             <div className="d-inline ourBlogContain">
-                              <span>14 March 2024</span>
+                              <span>22 August 2024</span>
                               <span className="d-inline ourBlogContainIcon">
                                 <i
                                   className="fa fa-user"
@@ -265,7 +260,7 @@ export default class OurBlog extends Component {
                         </Card.Body>
                       </Card>
                     </div>
-                  </Col>
+                  </Col> */}
                 </Slider>
               </div>
             </div>

@@ -73,7 +73,7 @@ export default function ContactUs() {
                   <p>
                     If you're interested in exploring affordable and flexible
                     educational opportunities, we encourage you to reach out to
-                    Homam Productions.
+                    Howam Productions.
                   </p>
                   <div className="contactUsIconContain">
                     <i className="fa fa-map-marker"></i>

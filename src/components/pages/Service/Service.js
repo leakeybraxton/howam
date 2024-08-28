@@ -283,6 +283,18 @@ export default function Service() {
       column3: "3",
       column4: "15000",
     },
+    {
+      column1: "SC020",
+      column2: "Forex Training",
+      column3: "3",
+      column4: "15000",
+    },
+    {
+      column1: "SC021",
+      column2: "Blockchain Tech Training",
+      column3: "3",
+      column4: "15000",
+    },
   ];
 
   // Array of data for language programs
@@ -391,7 +403,7 @@ export default function Service() {
                 <tr>
                   <th>Code</th>
                   <th>Course Name</th>
-                  <th>Duration(mounths)</th>
+                  <th>Duration(months)</th>
                   <th>Fees</th>
                 </tr>
               </thead>
