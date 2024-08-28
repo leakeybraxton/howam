@@ -44,7 +44,7 @@ export const Contact = () => {
                 <i className="fas fa-envelope-open-text"></i>
                 <h2>E-mail us</h2>
                 <h6>
-                  <p>howamproductions@gmail.com</p>
+                  <p>info@howam.africa</p>
                 </h6>
               </div>
             </Col>

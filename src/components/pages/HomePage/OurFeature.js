@@ -34,7 +34,7 @@ export default function OurFeature() {
                   <div className="featuresCardContain">
                     <h3>Therapy Center</h3>
                     <h6>
-                      Homam Productions offers therapy services both online and
+                      Howam Productions offers therapy services both online and
                       in-person, focusing on supporting mental and emotional
                       well-being.
                     </h6>
@@ -64,7 +64,7 @@ export default function OurFeature() {
                   <div className="featuresCardContain">
                     <h3>Online Market</h3>
                     <h6>
-                      Homam Productions operates an online marketplace that
+                      Howam Productions operates an online marketplace that
                       connects users with a diverse range of products and
                       services aimed at enhancing health and lifestyle.
                     </h6>
@@ -94,7 +94,7 @@ export default function OurFeature() {
                   <div className="featuresCardContain">
                     <h3>Online College</h3>
                     <h6>
-                      Homam Productions' online college provides flexible and
+                      Howam Productions' online college provides flexible and
                       accessible education and training programs.
                     </h6>
                     <details className="details">

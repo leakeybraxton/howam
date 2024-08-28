@@ -14,9 +14,9 @@ export default function Home() {
     dots: false,
     arrows: false,
     infinite: true,
-    speed: 1900,
+    speed: 3000,
     autoplay: true,
-    autoplaySpeed: 700,
+    autoplaySpeed: 2000,
     slidesToShow: 1,
     slidesToScroll: 1,
     responsive: [
@@ -40,13 +40,14 @@ export default function Home() {
     <div className="mainBannerDiv">
       <Slider {...settings} className="row">
         {images.map((image, index) => (
-          <img
-            key={index}
-            className="img-fluid mx-auto"
-            src={image}
-            alt={`BannerImage${index + 1}`}
-            style={{ maxWidth: "auto", height: "auto" }}
-          />
+          <div key={index} className="image-container">
+            <img
+              className="img-fluid mx-auto"
+              src={image}
+              alt={`BannerImage${index + 1}`}
+            />
+            <div className="overlay"></div>
+          </div>
         ))}
       </Slider>
       <div className="bannerContain">
