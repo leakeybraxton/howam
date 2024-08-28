@@ -246,7 +246,7 @@ export default class OurBlog extends Component {
                               </span>
                             </div>
                             <hr />
-                            <Card.Title>Howam Production.</Card.Title>
+                            <Card.Title>Howam Productions.</Card.Title>
                             <Card.Text>
                               Lorem Ipsum is simply dummy text of the printing
                               and typesetting industry. Lorem Ipsum has been the
